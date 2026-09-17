@@ -1,0 +1,42 @@
+/* comment */
+
+body {
+background-color: gray;
+font-size: 20px;
+}
+
+#content {
+    max-width: 60%;
+    border: 1px solid darkgray;
+    margin: 40px auto; /* centers the content */
+    padding: 50px;
+}
+
+p {
+    color: skyblue;
+    font-size: 1.3em;
+}
+
+hr {
+    height: 3px;
+    background-color: skyblue;
+    width: 80%;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+#logos {
+    text-align: center;
+    width: 50%;
+}
+
+#topics {
+    line-height: 1.5em;
+    margin: 0 auto;
+}
+
+.list {
+    list-style-type: none;
+}
