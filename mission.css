@@ -1,0 +1,31 @@
+#content {
+    width: 25%;
+    border: 1px solid darkgray;
+    margin: 50px auto; /* centers the content */
+    padding: 40px 120px;
+    line-height: 1.5;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#brand {
+    text-align: center;
+    color:rgb(0, 119, 158);
+    letter-spacing: 2px;
+}
+
+#byui-logo {
+    text-align: center;
+}
+
+#byui-logo img {
+    width: 30%;
+    height: auto;
+}
+
+li {
+    margin-bottom: 2em;
+}
