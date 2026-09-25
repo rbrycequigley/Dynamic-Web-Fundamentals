@@ -1,0 +1,47 @@
+#content {
+    width: 25%;
+    border: 1px solid rgb(165, 152, 152);
+    margin: 50px auto; /* centers the content */
+    padding: 40px 120px;
+    line-height: 1.5;
+}
+
+body {
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#brand {
+    text-align: center;
+    color:rgb(0, 119, 158);
+    letter-spacing: 2px;
+}
+
+#byui-logo {
+    text-align: center;
+}
+
+#byui-logo img {
+    width: 30%;
+    height: auto;
+}
+
+li {
+    margin-bottom: 2em;
+}
+
+.dark {
+    background-color: #222;
+    color: white;
+    text-decoration-color: #222;
+}
+
+.light {
+    background: white;
+    color: #222;
+    text-decoration-color: #222;
+}
