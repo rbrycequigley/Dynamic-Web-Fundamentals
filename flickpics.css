@@ -12,6 +12,8 @@ header, footer {
     text-align: center;
 }
 .main-nav {
+    display: grid;
+    grid-template-columns: 1fr;
     list-style: none;
     padding: 0;
 }
