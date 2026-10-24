@@ -1,0 +1,146 @@
+
+/* General styling */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    line-height: 1.6;
+    margin: 0;
+    padding: 15px;
+    color: #312b2b;
+}
+
+h1,
+h2 {
+    font-family: "Times New Roman", Times, serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: rgb(160, 38, 38);
+    margin: 0 0 10px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: orange;
+}
+
+a {
+    color: rgb(160, 38, 38);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.main-nav ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+.main-nav li {
+    list-style: none;
+}
+
+footer {
+    text-align: center;
+}
+
+/* Book collection */
+
+#book-list {
+    width: 100%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+.book-card {
+    display: grid;
+    grid-template-columns: 140px minmax(0, 1fr);
+    gap: 24px;
+    align-items: start;
+    padding: 24px 0;
+}
+
+.book-cover {
+    display: block;
+    width: 100%;
+    max-width: 140px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.book-details {
+    min-width: 0;
+}
+
+.book-details h2 {
+    overflow-wrap: anywhere;
+}
+
+.book-meta {
+    text-align: right;
+    color: #555;
+    font-size: 0.9rem;
+    padding-right: 20px; /* Space between text and divider line */
+    border-right: 2px solid orange; /* Vertical divider line placed between columns */
+}
+
+.book-meta ul {
+    padding: 0;
+    margin: 10px 0;
+    list-style: none;
+}
+
+.book-meta li {
+    margin-bottom: 4px;
+}
+
+.book-description {
+    margin: 10px 0 0;
+    overflow-wrap: anywhere;
+}
+
+/* Mobile layout */
+
+@media screen and (max-width: 500px) {
+    body {
+        padding: 12px;
+    }
+
+    .main-nav ul {
+        justify-content: center;
+        gap: 18px;
+    }
+
+    .book-card {
+        grid-template-columns: 95px minmax(0, 1fr);
+        gap: 14px;
+        padding: 20px 0;
+    }
+
+    .book-cover {
+        max-width: 95px;
+    }
+
+    .book-meta {
+        text-align: left;
+    }
+
+    .book-details h2 {
+        font-size: 1.2rem;
+    }
+}
