@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="charactercard.js" defer></script>
+    <link rel="stylesheet" href="charactercard.css"/>
+</head>
+<body>
+    <main class="card">
+        <meta property="character:card" content="the character card for Snortleblat the Swamp Beast Diplomat">
+        <img 
+            class="image" 
+            src="https://andejuli.github.io/wdd131/character_card/snortleblat.webp" 
+            alt="Snortleblat"
+            width="400"
+            height="400">
+            <meta name="character_card" content="picture of Snortleblat, the Lizardfolk Diplomat">
+        <div class="name">
+            <p>Snortleblat</p>
+        </div>
+        <div class="stats">
+            <meta property="character:stats" content="the class, level, and health of Snortleblat">
+            <p><strong>Class: </strong>Swamp Beast Diplomat</p>
+            <p><strong>Level: </strong><span id="level">5</span></p>
+            <p><strong>Health: </strong><span id="health">100</span></p>
+        </div>
+        <div class="buttons">
+            <meta property="character:actions" content="two buttons to attack Snortleblat or have him level up">
+            <button id="attacked">Attacked</button>
+            <button id="levelUp">Level Up</button>
+        </div>
+    </main>
+</body>
+</html>
