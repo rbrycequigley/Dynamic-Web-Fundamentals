@@ -88,7 +88,7 @@ body {
 
 /* RECIPE CARD */
 
-.recipe {
+.recipeDiv {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -98,8 +98,8 @@ body {
     margin-bottom: 1rem;
 }
 
-.recipe img {
-    width: 100%;
+.recipeDiv img {
+    width: 200px;
     aspect-ratio: 4 / 3;
     object-fit: cover;
 }
@@ -113,7 +113,7 @@ body {
     font-size: 0.8rem;
 }
 
-.recipe h1 {
+.recipeDiv h1 {
     margin: 1.3rem 0 0.1rem;
     color: #168acb;
     font-family: "Arial Narrow", Impact, sans-serif;
@@ -180,7 +180,7 @@ footer a {
         margin-bottom: 2rem;
     }
 
-    .recipe {
+    .recipeDiv {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
@@ -192,24 +192,24 @@ footer a {
         padding: 1rem;
     }
 
-    .recipe > img {
+    .recipeDiv > img {
         grid-area: image;
     }
 
-    .recipe > #button {
+    .recipeDiv > #button {
         grid-area: category;
     }
 
-    .recipe > h1 {
+    .recipeDiv > h1 {
         grid-area: title;
         margin: 0.5rem 0 0;
     }
 
-    .recipe > .rating {
+    .recipeDiv > .rating {
         grid-area: rating;
     }
 
-    .recipe > .longText {
+    .recipeDiv > .longText {
         grid-area: description;
         display: block;
         font-size: 0.85rem;
